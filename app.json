@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Recetas de mama",
+    "slug": "Recetas-mama",
+    "icon": "./assets/app-icon.png",
+    "version": "1.5.0",
+    "newArchEnabled": true,
+    "scheme": "com.recetasdemama",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      "expo-build-properties",
+      "expo-font",
+      "expo-notifications"
+    ],
+    "android": {
+      "package": "com.adriantudelaa.RecetasMama",
+      "googleServicesFile": "./google-services.json",
+      "permissions": ["NOTIFICATIONS"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.adriantudelaa.RecetasMama",
+      "infoPlist": {
+        "UIBackgroundModes": ["remote-notification"]
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0b118980-7d63-4ec0-a4af-3304e36a536a"
+      }
+    }
+  }
+}

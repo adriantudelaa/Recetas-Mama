@@ -1,0 +1,12 @@
+{
+  "recetas": [
+    {
+      "nombre": "Tortilla de patatas",
+      "categoria": ["cena"],
+      "fav": true,
+      "ingredientes": ["patatas", "huevos", "aceite"],
+      "instrucciones": "Pelar las patatas, freírlas y mezclarlas con huevo.",
+      "imagen": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
+    }
+  ]
+}

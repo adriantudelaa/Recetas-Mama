@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "682646149193",
+    "project_id": "recetas-mama-3f673",
+    "storage_bucket": "recetas-mama-3f673.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682646149193:android:6dd36ca1bcf31e39820798",
+        "android_client_info": {
+          "package_name": "com.adriantudelaa.RecetasMama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682646149193-vmovic9idf32huptd5uu8s7abt8ocpr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_3xNFO8w5UQQFTwb-yzMA54JAZRYNGVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682646149193-vmovic9idf32huptd5uu8s7abt8ocpr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
